@@ -66,7 +66,7 @@ You can request:
 - **Access** to what data we hold associated with your account
 - **Deletion** of your account and associated data
 
-To make either request, contact: [FILL IN SUPPORT EMAIL]
+To make either request, contact: baesupport26@gmail.com
 
 Note: some data (e.g., anonymized usage logs not linked to an account
 identifier) may not be deletable on an individual basis because it isn't
@@ -93,7 +93,7 @@ changes will update the effective date above.
 ## 9. Contact
 
 Bridges AI Enterprises
-[FILL IN SUPPORT EMAIL]
+baesupport26@gmail.com
 
 
 ---
