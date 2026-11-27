@@ -1,96 +1,82 @@
-# Privacy Policy — Wood Whisperer AI
+# Wood Whisperer AI Privacy Policy
 
-# Bridges AI Enterprises — Privacy Policy (Portfolio-Wide)
+**App:** Wood Whisperer AI
+**Publisher:** Bridges AI Enterprises LLC, 2804 Mishawaka Ave, South Bend, IN 46616, USA
+**Contact:** baesupport26@gmail.com
+**Effective date:** [SET ON APPROVAL]
 
-**Effective date:** [FILL IN ON PUBLISH]
-**Applies to:** All apps published by Bridges AI Enterprises ("BAE," "we,"
-"us"), unless a specific app links to a more specific addendum below, in
-which case both this document and that addendum apply together.
+Wood Whisperer AI suggests woodworking projects, writes step-by-step build guides and sells shop jigs. This policy explains what the app collects, why, who it is shared with, and how to delete it.
 
-*This is a starting-point draft based on BAE's actual technical
-architecture (see `docs/PRIVACY_NOTES.md`). It is not a substitute for
-review by a licensed attorney, particularly for apps handling health,
-financial, biometric, or age-restricted content — see the per-category
-addenda for those.*
+## 1. What we collect
 
-## 1. Who we are
+**Account information.** Your email address and password, or your Google account email if you sign in with Google. We use these to create your account and sign you in.
 
-Bridges AI Enterprises is a single-owner software portfolio. Every app in
-this portfolio shares common backend infrastructure (the "BAE AI Gateway")
-for AI features, so this policy is written once and applies across apps,
-with app-specific detail layered on top where an app's data is meaningfully
-different from the norm.
+**What you ask for.** The project ideas you describe, such as the skill level, tools or style you want. We use them to generate ideas, build guides and project images.
 
-## 2. What we collect
+**Build guides.** Guides you unlock are saved to your account so you can open them again.
 
-**Account/identity data:** whatever the individual app requires to function
-(e.g., email for login) — collected by that app, not by us on its behalf
-except where noted.
+**Purchases.** Build-guide unlocks are paid through Stripe. Wood Whisperer AI never sees or stores your card number. We keep a record of which guides you unlocked and a Stripe customer reference.
 
-**Usage and prompt data:** if the app includes AI features, your inputs
-(chat messages, generation prompts) pass through our shared AI Gateway.
-These are encrypted at rest. We do not run content moderation or scrub
-personal information from what you type before storing it — avoid entering
-information you don't want retained if you're unsure.
+**Shop orders.** Jigs and other physical products are sold through our Shopify store. Your cart is kept on your device. When you check out, Shopify collects your name, shipping address and payment details under Shopify's own privacy policy. Wood Whisperer AI does not receive your card number.
 
-**Payment data:** if the app has paid features, payment is processed by
-Stripe. We store a card fingerprint (not your card number) and a Stripe
-customer ID, used only to detect the same card being used to abuse free
-trial credits across multiple accounts.
+**Technical information.** Basic logs for reliability and security, such as timestamps and error messages. The app stores your sign-in session and your cart in your browser's local storage.
 
-**Device/technical data:** standard technical logs (timestamps, error
-data) for reliability and abuse prevention.
+Wood Whisperer AI does not collect your location, does not use advertising identifiers and does not show ads.
 
-## 3. How we use it
+## 2. How we use it
 
-- To provide the app's core functionality
-- To operate AI features (routing your input to a language model and
-  returning the result)
-- To prevent fraud and abuse of free-credit systems
-- We do not sell personal data to third parties
-- We do not use your data to train AI models
+We use this information to:
+- generate the ideas, guides and images you ask for
+- let you reopen guides you unlocked
+- process payments and shop orders
+- keep the service secure and fix problems
 
-## 4. Who we share it with
+We do not sell your personal information. We do not use your data to train AI models.
 
-- **AI model providers** (e.g., Anthropic), to generate a response to your
-  input — sent per-request, not stored by the provider beyond their own
-  standard retention policy
-- **Stripe**, for payment processing, if the app has paid features
-- **Media generation providers** (e.g., fal.ai, ElevenLabs), only for apps
-  with image/video/voice generation features
-- We do not share data with data brokers or advertisers
+## 3. Who we share it with
 
-## 5. Your rights
+We share information only with the service providers needed to run the app, and only what each one needs:
 
-You can request:
-- **Access** to what data we hold associated with your account
-- **Deletion** of your account and associated data
+| Provider | What they receive | Why |
+|---|---|---|
+| Lovable (hosting, database and sign-in on Supabase) | Account data, saved guides and unlock records | Stores and serves your account |
+| BAE AI Gateway and its AI model providers (such as Anthropic and fal.ai) | The text of your idea and guide requests | Writes ideas and guides and draws project images |
+| Google | Your sign-in, if you choose Sign in with Google | Signs you in |
+| Stripe | Your email and payment details | Processes guide unlock payments |
+| Shopify | Cart contents, and at checkout your name, address and payment details | Sells and ships shop products |
 
-To make either request, contact: baesupport26@gmail.com
+AI requests are sent without your name or email address.
 
-Note: some data (e.g., anonymized usage logs not linked to an account
-identifier) may not be deletable on an individual basis because it isn't
-stored in an individually-identifiable way.
+We may also disclose information if the law requires it.
 
-## 6. Data retention
+## 4. How long we keep it
 
-Data is retained as long as your account is active, plus a reasonable
-period afterward for fraud prevention and legal compliance, unless you
-request earlier deletion.
+We keep your data while your account is open. When you delete your account, we delete your login, profile, saved guides and unlock records right away. Copies in routine backups expire on the provider's backup schedule. Payment records held by Stripe and order records held by Shopify follow their own retention rules.
 
-## 7. Children's privacy
+## 5. Deleting your account and data
 
-Our apps are not directed at children under 13, and we do not knowingly
-collect data from children under 13. If a specific app is intended for a
-younger audience, that app's own policy addendum will say so explicitly
-and describe additional safeguards.
+**In the app:** sign in, tap **Account**, type DELETE and confirm. This removes your login and all of your data immediately.
 
-## 8. Changes to this policy
+**Without the app:** see [How to delete your Wood Whisperer AI account](wood-whisperer-ai-delete-account.md), or email baesupport26@gmail.com from the email address on your account.
 
-We may update this policy as apps or infrastructure change. Material
-changes will update the effective date above.
+## 6. Security
 
-## 9. Contact
+Data is encrypted in transit (HTTPS). Database access rules let only you read your own records. No system is perfectly secure, but we work to protect your data and fix issues quickly.
 
-Bridges AI Enterprises
+## 7. Children
+
+Wood Whisperer AI is not directed at children under 13, and we do not knowingly collect their information. Woodworking involves sharp tools; younger makers should work with an adult.
+
+## 8. Your choices and rights
+
+You can ask us for a copy of your data, or ask us to correct or delete it, by emailing baesupport26@gmail.com. Depending on where you live, you may have additional rights under local law. We will honor them.
+
+## 9. Changes
+
+If we change this policy, we will update the effective date above. If the changes are significant, we will also tell you in the app.
+
+## 10. Contact
+
+Bridges AI Enterprises LLC
+2804 Mishawaka Ave, South Bend, IN 46616, USA
 baesupport26@gmail.com
